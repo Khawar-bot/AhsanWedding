@@ -15,7 +15,6 @@ export default function FamilyCard({ member }: FamilyCardProps) {
       <h4 className="family-name">{member.name}</h4>
       <p className="family-relation">{member.relation}</p>
       <span className="family-role">{member.role}</span>
-      <p className="family-city">{member.city}</p>
     </div>
   );
 }
