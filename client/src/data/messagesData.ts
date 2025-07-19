@@ -69,5 +69,30 @@ export const familyMessages: FamilyMessage[] = [
     id: '13',
     message: "Ahsan bhai, as your brother-in-law, I've had the privilege of watching your journey and I couldn't be happier for you both. Sobia, welcome to our extended family! May Allah bless your union with endless happiness.",
     author: "Abdul Rauf (Brother-in-Law)"
+  },
+  {
+    id: '14',
+    message: "Finally! An engineer who found someone who can actually fix him when he breaks down. Sobia, good luck debugging Ahsan's weird habits - I hear engineers come with no warranty!",
+    author: "Khurram (Youngest Brother)"
+  },
+  {
+    id: '15',
+    message: "Ahsan, you've definitely found the perfect match - someone who can diagnose your problems AND tolerate your engineering solutions that 'work fine on my machine.' Sobia, may you have the patience of a doctor dealing with difficult patients!",
+    author: "Khawar (Technology Head)"
+  },
+  {
+    id: '16',
+    message: "Dr. Sobia, thank you for taking on our most challenging case - a stubborn engineer who thinks he can fix everything with duct tape and determination. May your marriage have better uptime than his code!",
+    author: "Sami Ullah (Brother-in-Law)"
+  },
+  {
+    id: '17',
+    message: "Ahsan bhai, I'm so happy you found someone who won't judge you for talking to your computer at 3 AM. Sobia, just remember - when he says 'it'll only take 5 minutes,' multiply by 10!",
+    author: "Hassan (Nephew)"
+  },
+  {
+    id: '18',
+    message: "Uncle Ahsan, now you have someone who can cure your headaches AND give you new ones when you forget to take out the trash! Aunty Sobia, thank you for agreeing to debug our favorite engineer for life!",
+    author: "Anaya (Niece)"
   }
 ];
