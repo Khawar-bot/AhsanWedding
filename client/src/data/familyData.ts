@@ -17,7 +17,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🎩 Wedding Host & Family Patriarch",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=BarkatAli&backgroundColor=b6e3f4,c0aede,d1d4f9&clothingColor=262e33,3c4043,5199e4&eyeColor=4178e0,48466d,516bc5&hairColor=0f0908,724133,d2c4b6&skinColor=edb98a,f8d25c,fd9841&top=eyepatch,hat,hijab,turban"
   },
   {
     id: '2',
@@ -26,7 +26,7 @@ export const familyMembers: FamilyMember[] = [
     role: "👑 Chief Organizer & Heart of the Celebration",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1494790108755-2616b612b602?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MumtazBegum&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=00b894,74b9ff&skinColor=edb98a&top=hijab,winterHat2&accessories=prescription02"
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🧠 The Wisdom Keeper & Eldest Sister of Grace", 
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rehana&backgroundColor=c0aede,d1d4f9,ffeaa7&clothingColor=74b9ff,00b894,6c5ce7&eyeColor=2d3436&hairColor=d63031&skinColor=edb98a&top=longHairStraight,hijab&accessories=prescription01"
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🏡 Head of Hospitality & Eldest Brother",
     city: "Islamabad", 
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Irfan&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=00b894&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardMedium"
   },
   {
     id: '5',
@@ -53,7 +53,7 @@ export const familyMembers: FamilyMember[] = [
     role: "💄 Style Consultant & Sister of Sass",
     city: "Karachi",
     side: "groom", 
-    photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sadia&backgroundColor=fd79a8,fdcb6e,e17055&clothingColor=e84393,fd79a8&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairCurvy&accessories=sunglasses"
   },
   {
     id: '6',
@@ -62,7 +62,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🎊 Guest Coordinator & Vibe Curator",
     city: "Faisalabad",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Iffat&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=longHairBigHair&accessories=wayfarers"
   },
   {
     id: '7',
@@ -71,7 +71,7 @@ export const familyMembers: FamilyMember[] = [
     role: "⚖️ Event Flow Manager & Peacekeeper",
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Amina&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=hijab,longHairStraight2"
   },
   {
     id: '8',
@@ -80,7 +80,7 @@ export const familyMembers: FamilyMember[] = [
     role: "💻 Technology & Logistics Head",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Khawar&backgroundColor=0984e3,74b9ff,00cec9&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortWaved&accessories=prescription02&facialHair=goatee"
   },
   {
     id: '9',
@@ -89,7 +89,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🎵 Music Coordinator & Energy Booster",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Khurram&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&accessories=sunglasses"
   },
   {
     id: '10',
@@ -98,7 +98,7 @@ export const familyMembers: FamilyMember[] = [
     role: "⭐ Little Star of the Wedding",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maliha&backgroundColor=ffeaa7,fab1a0,a29bfe&clothingColor=fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairMiaWallace&accessories=blank"
   },
   {
     id: '11',
@@ -107,7 +107,7 @@ export const familyMembers: FamilyMember[] = [
     role: "👗 Style & Traditions Advisor",
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Samina&backgroundColor=81ecec,00cec9,55a3ff&clothingColor=6c5ce7,a29bfe&eyeColor=00b894&hairColor=74b9ff&skinColor=edb98a&top=hijab,longHairBun&accessories=prescription01"
   },
   {
     id: '12',
@@ -116,7 +116,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🌺 Flower Girl & Junior Bridesmaid",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=GuleLala&backgroundColor=ffeaa7,fd79a8,fab1a0&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairCurly&accessories=blank"
   },
   {
     id: '13',
@@ -125,7 +125,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🎩 Junior Host & Entrance Coordinator",
     city: "Islamabad",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=ShahJahan&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&accessories=blank"
   },
   {
     id: '14',
@@ -134,7 +134,7 @@ export const familyMembers: FamilyMember[] = [
     role: "📸 Photography Assistant & Smile Spreader",
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Hassan&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&accessories=blank"
   },
   {
     id: '15',
@@ -143,7 +143,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🍪 Snack Patrol Officer & Mischief Manager",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Saim&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&accessories=blank"
   },
   {
     id: '16',
@@ -152,7 +152,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🍪 Snack Patrol Officer & Mischief Manager",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Saad&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=shortHairShortFlat&accessories=blank"
   },
   {
     id: '17',
@@ -161,7 +161,7 @@ export const familyMembers: FamilyMember[] = [
     role: "💄 Junior Stylist & Bridesmaid Assistant",
     city: "Faisalabad",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anaya&backgroundColor=a29bfe,6c5ce7,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairBigHair&accessories=blank"
   },
   {
     id: '18',
@@ -170,7 +170,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🎁 Gift Table Guardian",
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Haniya&backgroundColor=81ecec,00cec9,55a3ff&clothingColor=6c5ce7,a29bfe&eyeColor=00b894&hairColor=74b9ff&skinColor=edb98a&top=longHairStraight&accessories=blank"
   },
   {
     id: '19',
@@ -179,7 +179,7 @@ export const familyMembers: FamilyMember[] = [
     role: "📱 Junior Social Media Coordinator",
     city: "Islamabad",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aini&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairMiaWallace&accessories=blank"
   },
   {
     id: '20',
@@ -188,7 +188,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🔍 Décor Inspection Officer",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Zahra&backgroundColor=c0aede,d1d4f9,ffeaa7&clothingColor=74b9ff,00b894,6c5ce7&eyeColor=2d3436&hairColor=d63031&skinColor=edb98a&top=longHairStraight2&accessories=blank"
   },
   {
     id: '21',
@@ -197,7 +197,7 @@ export const familyMembers: FamilyMember[] = [
     role: "🤗 Bride's Energy Buddy & Emergency Hug Giver",
     city: "Lahore",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Baneen&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=longHairCurvy&accessories=blank"
   },
   {
     id: '22',
@@ -206,62 +206,62 @@ export const familyMembers: FamilyMember[] = [
     role: "😄 Giggle Generator & Happiness Distributor",
     city: "Karachi",
     side: "groom",
-    photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Zimal&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=longHairCurly&accessories=blank"
   },
 
   // Bride's Family  
   {
-    id: '7',
+    id: '23',
     name: "Muhammad Ali",
     relation: "Father",
     role: "🏡 Venue Coordinator",
     city: "Lahore",
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MuhammadAli&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardMedium&accessories=blank"
   },
   {
-    id: '8',
+    id: '24',
     name: "Khadija Ali",
     relation: "Mother",
     role: "💐 Floral Designer", 
     city: "Lahore",
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=KhadijaAli&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=00b894,74b9ff&skinColor=edb98a&top=hijab,longHairStraight&accessories=prescription01"
   },
   {
-    id: '9',
+    id: '25',
     name: "Hassan Ali", 
     relation: "Brother",
     role: "🚗 Transportation",
     city: "Karachi",
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=HassanAli&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&accessories=blank"
   },
   {
-    id: '10',
+    id: '26',
     name: "Mariam Sheikh",
     relation: "Sister", 
     role: "💄 Beauty Coordinator",
     city: "Lahore",
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MariamSheikh&backgroundColor=a29bfe,6c5ce7,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairBigHair&accessories=wayfarers"
   },
   {
-    id: '11',
+    id: '27',
     name: "Usman Tariq",
     relation: "Cousin",
     role: "🎁 Gift Coordinator",
     city: "Islamabad",
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=UsmanTariq&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&accessories=sunglasses"
   },
   {
-    id: '12',
+    id: '28',
     name: "Rubina Begum",
     relation: "Grandmother",
     role: "🤲 Prayers & Blessings",
     city: "Lahore", 
     side: "bride",
-    photo: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=RubinaBegum&backgroundColor=c0aede,d1d4f9,ffeaa7&clothingColor=74b9ff,00b894,6c5ce7&eyeColor=2d3436&hairColor=d63031&skinColor=edb98a&top=hijab,longHairStraight2&accessories=prescription02"
   }
 ];
