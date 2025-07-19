@@ -1,0 +1,398 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+
+  /* Wedding Theme Colors */
+  --primary-pink: hsl(325, 84%, 86%);
+  --primary-green: hsl(120, 60%, 92%);
+  --cream: hsl(50, 100%, 96%);
+  --gold: hsl(51, 100%, 50%);
+  --light-gray: hsl(0, 0%, 96%);
+  --dark-text: hsl(0, 0%, 20%);
+  --accent-pink: hsl(330, 100%, 71%);
+  --accent-green: hsl(106, 64%, 52%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--cream) 0%, var(--primary-green) 50%, var(--primary-pink) 100%);
+    min-height: 100vh;
+    color: var(--dark-text);
+    line-height: 1.6;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsla(325, 84%, 86%, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsla(120, 60%, 92%, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+@layer components {
+  .wedding-navbar {
+    background: hsla(0, 0%, 100%, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid hsla(325, 84%, 86%, 0.3);
+    box-shadow: 0 2px 20px hsla(0, 0%, 0%, 0.1);
+  }
+
+  .wedding-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, var(--accent-pink), var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .nav-link-wedding {
+    font-weight: 500;
+    color: var(--dark-text);
+    transition: all 0.3s ease;
+    position: relative;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+  }
+
+  .nav-link-wedding:hover,
+  .nav-link-wedding.active {
+    color: var(--accent-pink);
+    background: hsla(325, 84%, 86%, 0.2);
+  }
+
+  .hero-section {
+    padding: 100px 0 80px;
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.3);
+    margin-top: 76px;
+  }
+
+  .hero-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--accent-pink), var(--gold), var(--accent-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+  }
+
+  .quranic-verse {
+    background: hsla(0, 0%, 100%, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 40px 0;
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+    animation: fadeInUp 1s ease-out 0.6s both;
+  }
+
+  .arabic-text {
+    font-family: 'Amiri', serif;
+    font-size: 1.8rem;
+    line-height: 2.5;
+    text-align: center;
+    color: var(--dark-text);
+    margin-bottom: 20px;
+    direction: rtl;
+  }
+
+  .translation {
+    font-style: italic;
+    color: var(--dark-text);
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  .countdown-container {
+    background: hsla(0, 0%, 100%, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+    margin: 40px 0;
+    animation: fadeInUp 1s ease-out 0.9s both;
+  }
+
+  .countdown-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .countdown-item {
+    background: linear-gradient(45deg, var(--primary-pink), var(--primary-green));
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 100px;
+    box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.2);
+  }
+
+  .countdown-number {
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+  }
+
+  .countdown-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .family-card {
+    background: hsla(0, 0%, 100%, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .family-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(45deg, var(--accent-pink), var(--gold), var(--accent-green));
+  }
+
+  .family-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px hsla(0, 0%, 0%, 0.15);
+    border-color: var(--primary-pink);
+  }
+
+  .family-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    border: 4px solid var(--primary-pink);
+    box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .family-card:hover .family-photo {
+    transform: scale(1.05);
+    border-color: var(--gold);
+  }
+
+  .family-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    margin-bottom: 10px;
+  }
+
+  .family-relation {
+    color: var(--accent-pink);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .family-role {
+    background: linear-gradient(45deg, var(--primary-green), var(--primary-pink));
+    color: var(--dark-text);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .family-city {
+    color: var(--dark-text);
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+
+  .message-card {
+    background: hsla(0, 0%, 100%, 0.95);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.1);
+    border-left: 4px solid var(--primary-pink);
+    transition: all 0.3s ease;
+  }
+
+  .message-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.15);
+  }
+
+  .message-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: var(--dark-text);
+  }
+
+  .message-author {
+    text-align: right;
+    font-weight: 600;
+    color: var(--accent-pink);
+  }
+
+  .filter-dropdown {
+    border: 2px solid var(--primary-pink);
+    border-radius: 25px;
+    padding: 10px 20px;
+    background: white;
+    font-weight: 500;
+    color: var(--dark-text);
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  .filter-dropdown:focus {
+    box-shadow: 0 0 0 3px hsla(325, 84%, 86%, 0.3);
+  }
+
+  .wedding-footer {
+    background: linear-gradient(45deg, var(--primary-pink), var(--primary-green));
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 80px;
+  }
+}
+
+@layer utilities {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .wedding-brand {
+      font-size: 1.5rem;
+    }
+
+    .countdown-grid {
+      gap: 10px;
+    }
+
+    .countdown-item {
+      min-width: 80px;
+      padding: 15px;
+    }
+
+    .countdown-number {
+      font-size: 1.5rem;
+    }
+
+    .arabic-text {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hero-section {
+      padding: 80px 0 60px;
+    }
+
+    .quranic-verse,
+    .countdown-container {
+      padding: 25px;
+      margin: 20px 0;
+    }
+
+    .family-card {
+      padding: 20px;
+    }
+
+    .family-photo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
