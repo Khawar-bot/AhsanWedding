@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a wedding website application for Ahsan and Sobia's celebration. It's built as a full-stack TypeScript application with React frontend and Express backend, featuring a modern UI with shadcn/ui components and PostgreSQL database integration via Drizzle ORM.
+This is a wedding website application for Ahsan and Sobia's celebration called "AhsanKiShadi". It's built as a full-stack TypeScript application with React frontend and Express backend, featuring a modern Islamic wedding theme with Quranic verses, family showcases, countdown timer, and heartfelt messages. The website uses shadcn/ui components and includes comprehensive family data with 22+ groom's family members.
 
 ## User Preferences
 
