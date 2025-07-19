@@ -221,62 +221,71 @@ export const familyMembers: FamilyMember[] = [
   // Bride's Family  
   {
     id: '24',
-    name: "Muhammad Ali",
+    name: "Ashraf",
     relation: "Father",
-    role: "🏡 Venue Coordinator",
+    role: "🏡 Wedding Host & Family Head",
     city: "Lahore",
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MuhammadAli&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardMedium&accessories=blank"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ashraf&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardMedium&accessories=blank"
   },
   {
     id: '25',
-    name: "Khadija Ali",
+    name: "Bride's Mother",
     relation: "Mother",
-    role: "💐 Floral Designer", 
+    role: "👑 Chief Organizer & Mother of the Bride", 
     city: "Lahore",
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=KhadijaAli&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=00b894,74b9ff&skinColor=edb98a&top=hijab,longHairStraight&accessories=prescription01"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=BrideMother&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=00b894,74b9ff&skinColor=edb98a&top=hijab,longHairStraight&accessories=prescription01"
   },
   {
     id: '26',
-    name: "Hassan Ali", 
-    relation: "Brother",
-    role: "🚗 Transportation",
+    name: "Mahpara", 
+    relation: "Sister",
+    role: "💄 Beauty & Style Coordinator",
     city: "Karachi",
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=HassanAli&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&accessories=blank"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mahpara&backgroundColor=a29bfe,6c5ce7,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairBigHair&accessories=wayfarers"
   },
   {
     id: '27',
-    name: "Mariam Sheikh",
+    name: "Rabia",
     relation: "Sister", 
-    role: "💄 Beauty Coordinator",
+    role: "🌸 Decoration & Event Manager",
     city: "Lahore",
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MariamSheikh&backgroundColor=a29bfe,6c5ce7,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairBigHair&accessories=wayfarers"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rabia&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=longHairCurvy&accessories=blank"
   },
   {
     id: '28',
-    name: "Usman Tariq",
-    relation: "Cousin",
-    role: "🎁 Gift Coordinator",
+    name: "Afia",
+    relation: "Sister",
+    role: "🎊 Guest Relations & Hospitality",
     city: "Islamabad",
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=UsmanTariq&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&accessories=sunglasses"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Afia&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairStraight2&accessories=prescription02"
   },
   {
     id: '29',
-    name: "Rubina Begum",
-    relation: "Grandmother",
-    role: "🤲 Prayers & Blessings",
+    name: "Izaan",
+    relation: "Daughter",
+    role: "🌺 Junior Bridesmaid & Flower Assistant",
     city: "Lahore", 
     side: "bride",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=RubinaBegum&backgroundColor=c0aede,d1d4f9,ffeaa7&clothingColor=74b9ff,00b894,6c5ce7&eyeColor=2d3436&hairColor=d63031&skinColor=edb98a&top=hijab,longHairStraight2&accessories=prescription02"
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Izaan&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=longHairCurly&accessories=blank"
+  },
+  {
+    id: '30',
+    name: "Rajab",
+    relation: "Nephew",
+    role: "🎩 Junior Host & Ring Bearer",
+    city: "Karachi", 
+    side: "bride",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajab&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=shortHairShortFlat&accessories=blank"
   },
 
   // Brothers-in-Law
   {
-    id: '30',
+    id: '31',
     name: "Abdul Rauf",
     relation: "Brother-in-Law",
     role: "🤝 Family Relations Coordinator",
@@ -285,7 +294,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulRauf&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardLight&accessories=blank"
   },
   {
-    id: '31',
+    id: '32',
     name: "Sami Ullah",
     relation: "Brother-in-Law",
     role: "🏆 Entertainment Coordinator",
@@ -294,7 +303,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=SamiUllah&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&facialHair=moustacheFancy&accessories=wayfarers"
   },
   {
-    id: '32',
+    id: '33',
     name: "Asad",
     relation: "Brother-in-Law",
     role: "🍽️ Food & Refreshments Manager",
@@ -303,7 +312,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Asad&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&facialHair=beardMedium&accessories=blank"
   },
   {
-    id: '33',
+    id: '34',
     name: "Shahid",
     relation: "Brother-in-Law",
     role: "🚙 Logistics & Transport Support",

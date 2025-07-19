@@ -94,5 +94,15 @@ export const familyMessages: FamilyMessage[] = [
     id: '18',
     message: "Uncle Ahsan, now you have someone who can cure your headaches AND give you new ones when you forget to take out the trash! Aunty Sobia, thank you for agreeing to debug our favorite engineer for life!",
     author: "Anaya (Niece)"
+  },
+  {
+    id: '19',
+    message: "Ahsan, you're gaining not just a wife but also a family that comes with its own instruction manual - though we doubt you'll read it! Welcome to our family, where the Wi-Fi password is the easy part.",
+    author: "Ashraf (Sobia's Father)"
+  },
+  {
+    id: '20',
+    message: "Sobia beta, you've found someone who will try to 'optimize' everything in the house, including how you arrange the spice rack. Ahsan, good luck explaining why your 'system' is better than ours!",
+    author: "Mahpara (Sobia's Sister)"
   }
 ];
