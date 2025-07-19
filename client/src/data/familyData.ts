@@ -263,5 +263,43 @@ export const familyMembers: FamilyMember[] = [
     city: "Lahore", 
     side: "bride",
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=RubinaBegum&backgroundColor=c0aede,d1d4f9,ffeaa7&clothingColor=74b9ff,00b894,6c5ce7&eyeColor=2d3436&hairColor=d63031&skinColor=edb98a&top=hijab,longHairStraight2&accessories=prescription02"
+  },
+
+  // Brothers-in-Law
+  {
+    id: '29',
+    name: "Abdul Rauf",
+    relation: "Brother-in-Law",
+    role: "🤝 Family Relations Coordinator",
+    city: "Karachi",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulRauf&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardLight&accessories=blank"
+  },
+  {
+    id: '30',
+    name: "Sami Ullah",
+    relation: "Brother-in-Law",
+    role: "🏆 Entertainment Coordinator",
+    city: "Lahore",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=SamiUllah&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&facialHair=moustacheFancy&accessories=wayfarers"
+  },
+  {
+    id: '31',
+    name: "Asad",
+    relation: "Brother-in-Law",
+    role: "🍽️ Food & Refreshments Manager",
+    city: "Islamabad",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Asad&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&facialHair=beardMedium&accessories=blank"
+  },
+  {
+    id: '32',
+    name: "Shahid",
+    relation: "Brother-in-Law",
+    role: "🚙 Logistics & Transport Support",
+    city: "Faisalabad",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Shahid&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=shortHairShortFlat&facialHair=goatee&accessories=prescription01"
   }
 ];

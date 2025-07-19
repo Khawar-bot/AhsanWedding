@@ -64,5 +64,10 @@ export const familyMessages: FamilyMessage[] = [
     id: '12',
     message: "Uncle Ahsan and Aunty Sobia, I'm so excited to sprinkle flower petals for your special day! May your love bloom like the most beautiful flowers in the garden!",
     author: "Gul-e-Lala (Niece - Flower Girl)"
+  },
+  {
+    id: '13',
+    message: "Ahsan bhai, as your brother-in-law, I've had the privilege of watching your journey and I couldn't be happier for you both. Sobia, welcome to our extended family! May Allah bless your union with endless happiness.",
+    author: "Abdul Rauf (Brother-in-Law)"
   }
 ];
