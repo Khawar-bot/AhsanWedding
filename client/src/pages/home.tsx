@@ -28,7 +28,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <h1 className="hero-title">Ahsan and Sobia</h1>
-        <p className="text-xl opacity-80 mb-10">Celebrating Love, Unity, and New Beginnings</p>
+        <p className="text-xl opacity-80 mb-10">Are tying the knot on 15th of October</p>
+        <p className="text-lg opacity-70">Celebrating Love, Unity, and New Beginnings</p>
       </section>
 
       <div className="container mx-auto px-4">

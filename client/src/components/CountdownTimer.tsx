@@ -9,8 +9,8 @@ export default function CountdownTimer() {
   });
 
   useEffect(() => {
-    // Set wedding date (March 15, 2025)
-    const weddingDate = new Date('2025-03-15T18:00:00').getTime();
+    // Set wedding date (October 15, 2025)
+    const weddingDate = new Date('2025-10-15T18:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();

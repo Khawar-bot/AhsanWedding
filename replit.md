@@ -34,7 +34,7 @@ Preferred communication style: Simple, everyday language.
 
 ### Frontend Components
 1. **Navigation**: Responsive navigation with mobile hamburger menu
-2. **CountdownTimer**: Real-time countdown to wedding date (March 15, 2025)
+2. **CountdownTimer**: Real-time countdown to wedding date (October 15, 2025)
 3. **QuranicVerse**: Islamic blessing display component
 4. **FamilyCard**: Displays family member information with photos
 5. **MessageCard**: Shows family messages and well-wishes
