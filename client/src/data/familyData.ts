@@ -301,5 +301,14 @@ export const familyMembers: FamilyMember[] = [
     city: "Faisalabad",
     side: "groom",
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Shahid&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=shortHairShortFlat&facialHair=goatee&accessories=prescription01"
+  },
+  {
+    id: '33',
+    name: "Hajira",
+    relation: "Niece",
+    role: "🎨 Creative Arts & Crafts Coordinator",
+    city: "Karachi",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Hajira&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairStraightStrand&accessories=blank"
   }
 ];
