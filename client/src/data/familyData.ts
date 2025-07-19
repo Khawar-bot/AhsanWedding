@@ -192,6 +192,15 @@ export const familyMembers: FamilyMember[] = [
   },
   {
     id: '21',
+    name: "Hajra",
+    relation: "Niece",
+    role: "🎨 Creative Arts & Crafts Coordinator",
+    city: "Karachi",
+    side: "groom",
+    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Hajra&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairStraightStrand&accessories=blank"
+  },
+  {
+    id: '22',
     name: "Baneen",
     relation: "Niece",
     role: "🤗 Bride's Energy Buddy & Emergency Hug Giver",
@@ -200,7 +209,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Baneen&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=longHairCurvy&accessories=blank"
   },
   {
-    id: '22',
+    id: '23',
     name: "Zimal",
     relation: "Niece",
     role: "😄 Giggle Generator & Happiness Distributor",
@@ -211,7 +220,7 @@ export const familyMembers: FamilyMember[] = [
 
   // Bride's Family  
   {
-    id: '23',
+    id: '24',
     name: "Muhammad Ali",
     relation: "Father",
     role: "🏡 Venue Coordinator",
@@ -220,7 +229,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MuhammadAli&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardMedium&accessories=blank"
   },
   {
-    id: '24',
+    id: '25',
     name: "Khadija Ali",
     relation: "Mother",
     role: "💐 Floral Designer", 
@@ -229,7 +238,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=KhadijaAli&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=00b894,74b9ff&skinColor=edb98a&top=hijab,longHairStraight&accessories=prescription01"
   },
   {
-    id: '25',
+    id: '26',
     name: "Hassan Ali", 
     relation: "Brother",
     role: "🚗 Transportation",
@@ -238,7 +247,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=HassanAli&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&accessories=blank"
   },
   {
-    id: '26',
+    id: '27',
     name: "Mariam Sheikh",
     relation: "Sister", 
     role: "💄 Beauty Coordinator",
@@ -247,7 +256,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=MariamSheikh&backgroundColor=a29bfe,6c5ce7,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=a29bfe&skinColor=edb98a&top=longHairBigHair&accessories=wayfarers"
   },
   {
-    id: '27',
+    id: '28',
     name: "Usman Tariq",
     relation: "Cousin",
     role: "🎁 Gift Coordinator",
@@ -256,7 +265,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=UsmanTariq&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&accessories=sunglasses"
   },
   {
-    id: '28',
+    id: '29',
     name: "Rubina Begum",
     relation: "Grandmother",
     role: "🤲 Prayers & Blessings",
@@ -267,7 +276,7 @@ export const familyMembers: FamilyMember[] = [
 
   // Brothers-in-Law
   {
-    id: '29',
+    id: '30',
     name: "Abdul Rauf",
     relation: "Brother-in-Law",
     role: "🤝 Family Relations Coordinator",
@@ -276,7 +285,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=AbdulRauf&backgroundColor=74b9ff,0984e3,00b894&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortFlat&facialHair=beardLight&accessories=blank"
   },
   {
-    id: '30',
+    id: '31',
     name: "Sami Ullah",
     relation: "Brother-in-Law",
     role: "🏆 Entertainment Coordinator",
@@ -285,7 +294,7 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=SamiUllah&backgroundColor=00b894,81ecec,a29bfe&clothingColor=00cec9,55a3ff&eyeColor=00b894&hairColor=6c5ce7&skinColor=edb98a&top=shortHairShortWaved&facialHair=moustacheFancy&accessories=wayfarers"
   },
   {
-    id: '31',
+    id: '32',
     name: "Asad",
     relation: "Brother-in-Law",
     role: "🍽️ Food & Refreshments Manager",
@@ -294,21 +303,12 @@ export const familyMembers: FamilyMember[] = [
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Asad&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=shortHairShortCurly&facialHair=beardMedium&accessories=blank"
   },
   {
-    id: '32',
+    id: '33',
     name: "Shahid",
     relation: "Brother-in-Law",
     role: "🚙 Logistics & Transport Support",
     city: "Faisalabad",
     side: "groom",
     photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Shahid&backgroundColor=fab1a0,e17055,fdcb6e&clothingColor=00b894,74b9ff&eyeColor=2d3436&hairColor=00b894&skinColor=edb98a&top=shortHairShortFlat&facialHair=goatee&accessories=prescription01"
-  },
-  {
-    id: '33',
-    name: "Hajira",
-    relation: "Niece",
-    role: "🎨 Creative Arts & Crafts Coordinator",
-    city: "Karachi",
-    side: "groom",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Hajira&backgroundColor=ffeaa7,fab1a0,fd79a8&clothingColor=e84393,fd79a8,fdcb6e&eyeColor=2d3436&hairColor=e84393&skinColor=edb98a&top=longHairStraightStrand&accessories=blank"
   }
 ];
