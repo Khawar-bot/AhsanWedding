@@ -7,42 +7,62 @@ export interface FamilyMessage {
 export const familyMessages: FamilyMessage[] = [
   {
     id: '1',
-    message: "May Allah bless your union with endless love, happiness, and prosperity. Watching you both grow together has been a true joy. Congratulations on this beautiful beginning!",
-    author: "Ahmed Hassan (Ahsan's Father)"
+    message: "My son, as your father and the patriarch of this family, I could not be prouder. Ahsan, you've grown into a wonderful man, and Sobia is the perfect complement to your life. May Allah bless your union with endless love, happiness, and prosperity.",
+    author: "Barkat Ali Khan (Ahsan's Father)"
   },
   {
     id: '2',
-    message: "Sobia, you are such a wonderful addition to our family. Your kindness and grace have won all our hearts. May your marriage be filled with laughter and love.",
-    author: "Fatima Hassan (Ahsan's Mother)"
+    message: "Sobia beta, you are such a wonderful addition to our family. Your kindness and grace have won all our hearts. As the chief organizer of this celebration, I can say with joy that May your marriage be filled with laughter and love.",
+    author: "Mumtaz Begum (Ahsan's Mother)"
   },
   {
     id: '3',
-    message: "From childhood friends to life partners - what a beautiful journey! May Allah grant you both a lifetime of happiness and understanding.",
-    author: "Muhammad Ali (Sobia's Father)"
+    message: "As your eldest sister, I've watched you grow with such pride. Ahsan, your wisdom and kindness shine through, and Sobia, you complement him perfectly. May Allah grant you both a lifetime of happiness and understanding.",
+    author: "Rehana (Eldest Sister)"
   },
   {
     id: '4',
-    message: "Ahsan, you've found your perfect match in Sobia. May your love story inspire others and may your bond grow stronger with each passing day.",
-    author: "Khadija Ali (Sobia's Mother)"
+    message: "Brother, as the head of hospitality, I want to ensure everyone feels the warmth of our family's love for you both. Sobia, welcome to our family with open hearts and endless blessings!",
+    author: "Irfan (Eldest Brother)"
   },
   {
     id: '5',
-    message: "Brother, seeing you this happy makes my heart full. Sobia is perfect for you, and I can't wait to officially call her my sister. Best wishes!",
-    author: "Omar Hassan (Ahsan's Brother)"
+    message: "Ahsan bhai, you know I've always been the one with sass, but seeing you this happy makes my heart melt! Sobia, get ready for a lifetime of style tips from your new sister-in-law!",
+    author: "Sadia (Sister)"
   },
   {
     id: '6',
-    message: "Sobia, you're gaining not just a husband but an entire family who already loves you dearly. Welcome to the family with open arms!",
-    author: "Ayesha Malik (Ahsan's Sister)"
+    message: "The vibe is absolutely perfect! Ahsan and Sobia, you two are going to create the most beautiful life together. As your guest coordinator, I can already feel the love radiating from everyone!",
+    author: "Iffat (Sister)"
   },
   {
     id: '7',
-    message: "May your marriage be blessed with the same love and respect our grandparents showed each other. My prayers are always with you both.",
-    author: "Rubina Begum (Sobia's Grandmother)"
+    message: "As the family peacekeeper, I can honestly say this union brings nothing but joy and harmony to our family. May your marriage be a source of peace and happiness for years to come.",
+    author: "Amina (Sister)"
   },
   {
     id: '8',
-    message: "Two hearts, one soul, endless possibilities. May Allah bless your union and grant you both immense happiness in this new chapter of life.",
-    author: "Zainab Khan (Ahsan's Aunt)"
+    message: "Using all my tech skills, I've searched the database of my heart and found that you two are a perfect match! Congratulations on finding your life's best partnership. Here's to your beautiful future together!",
+    author: "Khawar (Brother - Technology Head)"
+  },
+  {
+    id: '9',
+    message: "The music is playing, the energy is high, and my heart is bursting with joy for you both! Ahsan bhai, may your marriage be filled with as much happiness and rhythm as our family celebrations!",
+    author: "Khurram (Youngest Brother)"
+  },
+  {
+    id: '10',
+    message: "I may be the little star of the wedding, but you two are the shining constellation that lights up our entire family! I'm so excited to have a new sister!",
+    author: "Maliha (Youngest Sister)"
+  },
+  {
+    id: '11',
+    message: "Sobia, as someone who's learned the beautiful traditions of this family, I can tell you that you're joining a family full of love, laughter, and endless support. Welcome home, sister!",
+    author: "Samina (Sister-in-Law)"
+  },
+  {
+    id: '12',
+    message: "Uncle Ahsan and Aunty Sobia, I'm so excited to sprinkle flower petals for your special day! May your love bloom like the most beautiful flowers in the garden!",
+    author: "Gul-e-Lala (Niece - Flower Girl)"
   }
 ];
