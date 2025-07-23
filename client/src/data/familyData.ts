@@ -191,8 +191,7 @@ export const familyMembers: FamilyMember[] = [
     relation: "Niece",
     role: "😄 Giggle Generator & Happiness Distributor",
     side: "groom",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Zimal&backgroundColor=fdcb6e,e17055,fd79a8&clothingColor=e84393,fd79a8&eyeColor=00b894&hairColor=d63031&skinColor=edb98a&top=longHairCurly&accessories=blank"
-  },
+    photo: "/images/zimal.png"
 
   // Bride's Family  
   {
