@@ -71,7 +71,7 @@ export const familyMembers: FamilyMember[] = [
     relation: "Brother",
     role: "💻 Technology & Logistics Head",
     side: "groom",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=Khawar&backgroundColor=0984e3,74b9ff,00cec9&clothingColor=2d3436,636e72&eyeColor=0984e3&hairColor=2d3436&skinColor=edb98a&top=shortHairShortWaved&accessories=prescription02&facialHair=goatee"
+    photo: "/images/khawar.png"
   },
   {
     id: '9',
