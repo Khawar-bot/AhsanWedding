@@ -27,7 +27,7 @@ export const familyMessages: FamilyMessage[] = [
   },
   {
     id: '5',
-    message: "Ahsan bhai, you know I've always been the one with sass, but seeing you this happy makes my heart melt! Sobia, get ready for a lifetime of style tips from your new sister-in-law!",
+    message: "Ahsan, you know seeing you this happy makes my heart melt! Sobia, get ready for a lifetime of style tips from your new sister-in-law!",
     author: "Sadia (Sister)"
   },
   {
