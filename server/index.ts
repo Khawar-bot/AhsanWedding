@@ -65,12 +65,13 @@ app.use((req, res, next) => {
 server.listen(
   {
     port,
-    host: "127.0.0.1"
+    host: "0.0.0.0"
   },
   () => {
-    console.log(`Server running on http://127.0.0.1:${port}`);
+    console.log(`Server running on http://0.0.0.0:${port}`);
   }
 );
+
 
 
 
