@@ -17,7 +17,7 @@ export const familyMessages: FamilyMessage[] = [
   },
   {
     id: '3',
-    message: "As your eldest sister, I've watched you grow with such pride. Ahsan, your wisdom and kindness shine through, and Sobia, you complement him perfectly. May Allah grant you both a lifetime of happiness and understanding.",
+    message: "Dear Ahsan and Sobia !Iam very excited to see both you together,May these days pass quickly, and may my brother return home soon 🤲🏻❤",
     author: "Rehana (Eldest Sister)"
   },
   {
