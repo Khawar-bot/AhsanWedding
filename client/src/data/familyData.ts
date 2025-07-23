@@ -192,7 +192,7 @@ export const familyMembers: FamilyMember[] = [
     role: "😄 Giggle Generator & Happiness Distributor",
     side: "groom",
     photo: "/images/zimal.png"
-
+},
   // Bride's Family  
   {
     id: '24',
