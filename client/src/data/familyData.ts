@@ -15,7 +15,7 @@ export const familyMembers: FamilyMember[] = [
     relation: "Father",
     role: "🎩 Wedding Host & Family Patriarch",
     side: "groom",
-    photo: "https://api.dicebear.com/7.x/avataaars/svg?seed=BarkatAli&backgroundColor=b6e3f4,c0aede,d1d4f9&clothingColor=262e33,3c4043,5199e4&eyeColor=4178e0,48466d,516bc5&hairColor=0f0908,724133,d2c4b6&skinColor=edb98a,f8d25c,fd9841&top=eyepatch,hat,hijab,turban"
+    photo: "https://api.dicebear.com/7.x/avataaars/png?seed=BarkatAli&backgroundColor=b6e3f4,c0aede,d1d4f9&clothingColor=262e33,3c4043,5199e4&eyeColor=4178e0,48466d,516bc5&hairColor=0f0908,724133,d2c4b6&skinColor=edb98a,f8d25c,fd9841&top=eyepatch,hat,hijab,turban"
   },
   {
     id: '2',
